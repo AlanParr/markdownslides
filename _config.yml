@@ -29,7 +29,7 @@ reveal:
   margin: 0.1
   ## Bounds for smallest/largest possible scale to apply to content
   minScale: 0.2
-  maxScale: 1.5
+  maxScale: 1.0
 
   ## Display presentation control arrows
   controls: true

@@ -1,4 +1,4 @@
-# Example 1: Pricing
+# Example 1: Decimals as Prices
 
 ```csharp
 public void SetPrice(decimal price)
@@ -27,4 +27,3 @@ public void DoSomething()
     SetGrossPrice(netPrice);
 }
 ```
-Net Price and Gross Price are both separate (albeit related) concepts within our domain, but because they are both represented by decimals, we lose any concept of type-safety. There is nothing stopping us from accidentally passing in a netPrice to a method that takes a grossPrice.
